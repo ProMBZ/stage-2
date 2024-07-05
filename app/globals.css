@@ -1,0 +1,161 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+html,
+body {
+    font-family: "DM Sans", sans-serif;
+}
+
+.image1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.box {
+    padding-top: 10rem !important;
+}
+
+.textt1 {
+
+    font-size: 23px !important;
+    font-weight: 550 !important;
+    margin-top: 5px;
+    text-align: center;
+
+}
+
+.textt2 {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    text-align: center;
+
+}
+
+.overlayImage {
+    width: 427.62px;
+    height: 327px;
+    opacity: 1;
+}
+
+.text1 {
+    font-size: 23px !important;
+    font-weight: 500;
+    line-height: 33.57px;
+    text-align: left;
+
+}
+
+.text2 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.04px;
+    text-align: left;
+}
+
+
+
+.input {
+    width: 100%;
+    padding: 3px;
+    border: 1px solid rgba(177, 183, 214, 1);
+    border-radius: 4px;
+}
+
+.hi {
+    font-size: 10px !important;
+
+
+}
+
+.logo {
+    z-index: 100;
+}
+
+body {
+    overflow-y: hidden;
+}
+
+label {
+    font-size: 11px !important;
+}
+
+.button {
+    padding: 8px 18px;
+    background: rgba(206, 214, 247, 1);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.box {
+    padding-top: 5rem !important;
+    font-size: 0.8rem;
+
+}
+
+.container {
+    margin-top: 0.5rem;
+}
+
+.label {
+    margin-bottom: 0.2rem;
+}
+
+.input {
+    padding: 0.2rem;
+}
+
+.button {
+    padding: 6px 20px !important;
+    background: rgba(206, 214, 247, 1);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+@media (max-height: 600px) {
+    .box {
+        font-size: 0.6rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .margin-l {
+        margin-left: 10px !important;
+    }
+}
+
+/* @media screen and (max-width: 2560px) {
+    .logo-hide {
+       display: none;
+    }
+} */
+
+@media screen and (max-width: 768px) {
+    .left-section {
+        display: none !important;
+        justify-content: center;
+        align-items: center;
+        /* display: ; */
+    }
+    .logo-hide {
+        display:flex !important;
+    }
+
+    .box {
+        justify-content: center !important;
+        /* align-items: center !important; */
+        justify-items: center !important;
+        justify-self: center !important;
+    }
+}
+
